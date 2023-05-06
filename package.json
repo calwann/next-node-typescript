@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "start": "cd ./docker && docker-compose up --build --force-recreate -d && cd ../api && nodemon",
+    "stop": "cd ./docker && docker-compose down"
+  }
+}

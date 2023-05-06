@@ -1,0 +1,8 @@
+{
+  "watch": [
+    "src",
+    "prisma"
+  ],
+  "ext": "ts,tsx,prisma",
+  "exec": "tsc"
+}
