@@ -6,7 +6,7 @@ You will need to install [Docker](https://www.docker.com/products/docker-desktop
 You will need to install [Node/NPM](https://nodejs.org/en/) to execute npm commands.
 
 ## Setup
-First clone this repos, then from a terminal go to the project directory by running the following command
+First clone this repository, then from a terminal go to the project directory by running the following command
 
 Copy `.env.example` to `.env`
 
@@ -26,3 +26,9 @@ $ npm start
 ## Usage
 Navigate to this url to access the client-side (Next) system [http://localhost/](http://localhost/)
 Navigate to this url to access the server-sid (Node) system [http://localhost/api](http://localhost/api)
+
+## After usage
+Stop the containers using this command
+```shell
+$ npm stop
+```
