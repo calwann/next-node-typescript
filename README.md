@@ -17,6 +17,14 @@ $ cp ./api/.env.example ./api/.env
 $ cp ./app/.env.example ./app/.env
 ```
 
+Second install NPM global dependencies
+```shell
+$ npm i -g nodemon
+```
+```shell
+$ npm i -g tsc
+```
+
 Execute the NPM command to build the containers and start the applications
 
 ```shell
